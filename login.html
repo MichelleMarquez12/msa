@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<Guión src="https://kit.fontawesome.com/d8a65ae565.js" crossorigin="anónimo"></Guión>
+<link href="https://file.myfontastic.com/kZcrfPZzPrU2NrFRgQ48hF/icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+    <head>
+        <link rel="shortcut icon" href="imagenes/Conaleplogo.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MSA</title>
+        <link rel="stylesheet" href="estilos.css">
+        
+        <style>
+            .loader {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            }
+
+            .jimu-primary-loading:before,
+            .jimu-primary-loading:after {
+            position: absolute;
+            top: 0;
+            content: '';
+            }
+
+            .jimu-primary-loading:before {
+            left: -19.992px;
+            }
+
+            .jimu-primary-loading:after {
+            left: 19.992px;
+            -webkit-animation-delay: 0.32s !important;
+            animation-delay: 0.32s !important;
+            }
+
+            .jimu-primary-loading:before,
+            .jimu-primary-loading:after,
+            .jimu-primary-loading {
+            background: #076fe5;
+            -webkit-animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+            animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+            width: 13.6px;
+            height: 32px;
+            }
+
+            .jimu-primary-loading {
+            text-indent: -9999em;
+            margin: auto;
+            position: absolute;
+            right: calc(50% - 6.8px);
+            top: calc(50% - 16px);
+            -webkit-animation-delay: 0.16s !important;
+            animation-delay: 0.16s !important;
+            }
+
+            @-webkit-keyframes loading-keys-app-loading {
+
+            0%,
+            80%,
+            100% {
+                opacity: .75;
+                box-shadow: 0 0 #076fe5;
+                height: 32px;
+            }
+
+            40% {
+                opacity: 1;
+                box-shadow: 0 -8px #076fe5;
+                height: 40px;
+            }
+            }
+
+            @keyframes loading-keys-app-loading {
+
+            0%,
+            80%,
+            100% {
+                opacity: .75;
+                box-shadow: 0 0 #076fe5;
+                height: 32px;
+            }
+
+            40% {
+                opacity: 1;
+                box-shadow: 0 -8px #076fe5;
+                height: 40px;
+            }
+            }
+        </style>
+    </head>
+
+<body>
+    <div class="contenedor1">
+        <img src="imagenes/Conaleplogo.png" alt="Logo Conalep" style="width: 80px; height: 80px; float:right;">
+        <h1>MSA</h1>
+    </div>
+
+    <div class="contenedor2">
+        <form id="loginForm" style="justify-content: center;" action="loginController.php" method="post">
+            <center><img src="imagenes/logo.png" alt="Logo MSA" style="width: 100px; height: 100px"></center>
+            <h2 style="color:black;">
+                <center>Iniciar sesión</center>
+            </h2>
+
+            <div class="contenedornu">
+                <select id="user-type" style="background-color: #2F7D6C;
+                color: #fff;
+                border: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                margin-top: 20px;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);">
+                    <option value="U">Alumno</option>
+                    <option value="P">Docente</option>
+                    <option value="I">Intendente</option>
+                  </select>
+                <input type="text" name="usr" placeholder="Nombre de usuario" required>
+                <input type="password" name="pswd" placeholder="Contraseña" required>
+            </div>
+
+            <div id="loader" style="display: none;"><h2>Se estan verificando sus datos...</h2>
+                <br><div class=" jimu-primary-loading"></div>
+            </div>
+
+            <div style="display: flex; justify-content: center;">
+                <button class="btn-menu" type="submit" onclick="abrir();">
+                    <div class="svg-wrapper-1">
+                    <div class="svg-wrapper">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    </div>
+                    <span>Ingresar</span>
+                    
+                    <script src="login.js" defer></script>
+                </button>
+
+                <script type="text/javascript">
+                    function abrir()
+                    {
+                        document.getElementById("loader").style.display = "block";
+                        setTimeout(function() {
+                            window.location.href = "login.js";
+                        }, 4000);
+                    }
+                        // var windowHeight = 400; // Altura de la ventana
+                        // var windowWidth = 400; // Anchura de la ventana
+                        // var leftPosition = (window.screen.width - windowWidth) / 2; // Calcular la posición izquierda centrada
+                        // var topPosition = (window.screen.height - windowHeight) / 2; // Calcular la posición superior centrada
+                        // var w = window.open("", "", "height=" + windowHeight + ", width=" + windowWidth + ", top=" + topPosition + ", left=" + leftPosition + ", menubar=no, toolbar=no");
+                        // w.document.open();
+                        // w.document.write('<h1 style="text-aling:center">Sus datos estan siendo verificados, pronto será redireccionado.</h1>');
+                        
+                        // setTimeout(function() {
+                        //     w.document.close();
+                        // }, 1000); // Cerrar la ventana después de 3 segundos (3000 milisegundos)
+                    
+                    
+                    // function comprobar()
+                    // {
+                        
+
+                    //     var direccion = document.getElementById("correo").value;
+                    //     document.getElementById("vinculo").href = "envio_datos.php?direccion_correo="+direccion;
+                    //     if (direccion.indexOf("@",0) == -1)
+                    //     {
+                    //     alert("No coloco una direccion de correo valida");
+                    //     }
+                    //     else 
+                    //     {
+                    //     document.getElementById("formulario").submit();
+                    //     abrir();
+                    //     }
+                    // }
+                </script>
+            </div>
+
+        </form>
+        <br><label style="color: black; display: flex ;margin-top: 25 px; justify-content: center; font-size: 20px; font-family: cursive;"><strong>No formas parte del personal? has click </strong></label> <a href="reporte.html"><label style="font-size: 20px; font-family: cursive;"> 👉Aquí</label></a>
+    </div>
+
+    <footer class="footer">
+        <div class="barracontacto">
+            <h3>Contactanos</h3>
+            <p>Ciudad Valles, San Luis Potosi.</p>
+            <p>Called decima entre 1ª.y Tercera, La Diana, 79030 Cd Valles, S.L.P.</p>
+            <p>Teléfono: 481 382 4968</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        function login() {
+
+        }
+        function invitado() {
+
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+    <html lang="en">
+    <Guión src="https://kit.fontawesome.com/d8a65ae565.js" crossorigin="anónimo"></Guión>
+    <link href="https://file.myfontastic.com/kZcrfPZzPrU2NrFRgQ48hF/icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MSA</title>
+        <link rel="shortcut icon" href="imagenes/Conaleplogo.png">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        
+        
+        <div class="contenedor1">
+            <img src="imagenes/Conaleplogo.png" alt="Logo Conalep" style="width: 80px; height: 80px; float:right;"> <h1>MSA</h1>
+        </div>
+
+        <div class="contenedor2">
+            <form style="justify-content: center;" action="loginController.php" method="post"></form>
+                <img src="imagenes/logo.png" alt="Logo MSA" style="width: 130px; height: 130px; float: inline-end;"><br><br><br><br>
+
+                <center> <strong> Iniciar sesión </strong></center>
+
+                <div class="contenedornu">
+                    <input type="text" name="usr" placeholder="Nombre de usuario" required>
+                    <input type="password" name="pswd" placeholder="Contraseña" required>
+                </div>
+
+                <div style="display: flex; justify-content: center;">
+                    <button class="btn-menu" type="submit">Ingresar</button> 
+                </div>
+
+            </form>
+
+            <br><br><label style="display: flex ; justify-content: center;" >No formas parte del personal? has click </label> <strong><a href="reporte.html">👉Aquí</a></strong>
+        
+        </div>
+
+        <footer class="footer">
+            <div class="barracontacto">
+                <h3>Contactanos</h3>
+                    <p>Ciudad Valles, San Luis Potosi.</p>
+                    <p>Called decima entre 1ª.y Tercera, La Diana, 79030 Cd Valles, S.L.P.</p>
+                    <p>Teléfono: 481 382 4968</p>
+            </div>
+        </footer>
+
+        <script>
+            function login() {
+
+            }
+            function invitado() {
+
+            }
+        </script>
+    </body>
+
+</html> -->

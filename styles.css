@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #005E2E;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+
+  padding-top: 10px;
+  background-color: #FFFFFF;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  height: 100px;
+}
+
+#logo-msa {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+#show-more-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+#show-more-button:hover {
+  background-color: #0066b3;
+}
+
+/* Estilos de la barra de búsqueda */
+#search-input {
+  margin-bottom: 10px;
+  padding: 6px;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+
+/* Estilos de la tabla */
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #00843D; 
+  margin: 0 auto; /* Centrar la tabla */
+}
+
+#data-table th,
+#data-table td {
+  padding: 8px;
+  border: 1px solid #FFFFFF; 
+  color: #FFFFFF; 
+  text-align: center; 
+}
+
+#data-table th {
+  background-color: #1174B7; 
+}
+
+#data-table td {
+  background-color: #00843D; 
+}
+
+#data-table tr:nth-child(even) td {
+  background-color: #005E2E; 
+}
+
+/* Media Queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  #data-table th,
+  #data-table td {
+    font-size: 12px;
+  }
+}

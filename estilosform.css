@@ -1,0 +1,99 @@
+
+
+  body {
+    background-color: #2F7D6C;
+    font-family: Arial, sans-serif;
+  }
+
+  .contenedor1 {
+    background:#fff;
+    border-radius: 1%;
+    padding: 1px;
+    margin: auto;
+}
+
+.contreporte {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2F7D6C;
+    border-radius: 5%;
+    background-color: #fff;
+    margin: auto;
+    max-width: 500px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  button {
+    background-color:brown;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-menu {
+    background-color: #2F7D6C;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-menu:active {
+    background: rgb(199, 2, 51);
+    color: white;
+  }
+  
+  .btn-menu:hover {
+    background-color: darkgreen;
+    color: #fff;
+  }
+
+  .aula {
+    display: flex;
+    font-weight: bold;
+  }
+
+  .aula1{
+    display: flex;
+    font-size: 20px;
+    width: 15%; 
+    height: 30%;
+  }
+
+  .aula2{
+    display: flex;
+    font-size: medium;
+    width: 100%; 
+    height: 30%;
+  }
+
+  input text{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #fecha {
+    display: flex;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+ }
+
+ .options{
+  font-size: 20px;
+
+ }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MSA</title>
+        <link rel="shortcut icon" href="imagenes/Conaleplogo.png">
+        <link rel="stylesheet" href="estilosform.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <div class="contenedor1">
+        <img src="imagenes/Conaleplogo.png" alt="Logo Conalep" style="width: 80px; height: 80px; float: right; display: inline-block"> <h1>RSA</h1>
+    </div>
+
+    <body>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <div class="contreporte" style="width: 100%; height: 100%;">
+            <H1> <center>Bienvenido a MSA</center></H1>
+            <H2> <center>Favor de llenar el reporte, una vez llenado da clic en enviar</center></H2>
+            <div><h3 style="width : 100%; heigth: 100%">Fecha: </h3></div>
+
+            <div id="fecha"> 
+                <script >
+                    date = new Date();
+                    year = date.getFullYear();
+                    month =date.getMonth()+ 1;
+                    day = date.getDate();
+                    document.getElementById("fecha").innerHTML = day + "/" + month + "/" + year ;
+                </script>
+            </div>
+            <div><h3>Nombre: </h3> <input type="text" style="width : 100%; heigth: 100%"></div><br>
+            
+            <div class="aula"> 
+                <div class="aula1">Aula: </div><br>
+                <div class="aula2">
+                    <select class="aula2" style="width: 100%; height: 100%;">
+                        <option>Aula</option>
+                        <option>Aula</option>
+                        <option>Aula</option>
+                        <option>Aula</option>
+                        <option>Aula</option>
+                    </select>
+                </div>
+            </div><br>
+
+            <form>
+                <label style="font-weight: bold; font-size: 20px;">Seleccione la(s) opciones a reportar</label> <br>
+                <div class="options">
+                    <br><input type="checkbox" id="opcion1" name="opcion1" value="Mobiliario">
+                    <label for="opcion1"> Mobiliario</label> 
+                    <input type="hidden"> (Mesas, butacas, pizarrón, etc...)<BR>
+                    <input type="checkbox" id="opcion2" name="opcion2" value="opcion2">
+                    <label for="opcion2"> Equipo en general</label>
+                    <input type="hidden"> (Aire acondicionado, focos, ventiladores, contactos, etc...)<br>
+                    <input type="checkbox" id="opcion3" name="opcion3" value="opcion3">
+                    <label for="opcion3"> Equipo de cómputo</label>
+                    <input type="hidden"> (Computadoras, cañón, bocinas, micrófono, etc...)<br>
+                    <input type="checkbox" id="opcion4" name="opcion4" value="opcion4">
+                    <label for="opcion3"> Objetos perdidos</label><br> <br>
+                </div>
+            </form>
+
+            <h3><strong>Reporte de: </strong></h3>
+
+            <form>
+                <div class="options">
+                    <textarea name="textarea" rows="10" cols="50" placeholder="En caso de reportar, describa..."></textarea>                    
+                </div>
+            </form>
+            <button class="btn-menu" style="background-color: darkgreen; color: white;" type="submit">Ingresar</button>
+            <button name=boton value=Cerrar onclick="window.close()" style="background-color: brown; color: white;"> Salir</button>
+        </div>
+    </body>
+</html>

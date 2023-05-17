@@ -1,0 +1,232 @@
+[
+  {
+    "tipo_rep": "R1",
+    "usr": "Diego",
+    "tipo_usr": "T1",
+    "ubicacion": "Aula 1",
+    "fecha": "2023-05-01",
+    "hora": "09:30",
+    "descripcion": "D1"
+  },
+  {
+    "tipo_rep": "R2",
+    "usr": "Elena",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R3",
+    "usr": "Arturo",
+    "tipo_usr": "T3",
+    "ubicacion": "Aula 3",
+    "fecha": "2023-05-03",
+    "hora": "10:15",
+    "descripcion": "D3"
+  } ,
+  {
+    "tipo_rep": "R1",
+    "usr": "Jacque",
+    "tipo_usr": "T4",
+    "ubicacion": "Aula 4",
+    "fecha": "2023-05-03",
+    "hora": "10:16",
+    "descripcion": "D4"
+  },
+  {
+    "tipo_rep": "R3",
+    "usr": "Mich",
+    "tipo_usr": "T3",
+    "ubicacion": "Aula 3",
+    "fecha": "2023-05-03",
+    "hora": "10:18",
+    "descripcion": "D3"
+  } ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R2",
+    "usr": "Elena",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R3",
+    "usr": "Arturo",
+    "tipo_usr": "T3",
+    "ubicacion": "Aula 3",
+    "fecha": "2023-05-03",
+    "hora": "10:15",
+    "descripcion": "D3"
+  } ,
+  {
+    "tipo_rep": "R1",
+    "usr": "Jacque",
+    "tipo_usr": "T4",
+    "ubicacion": "Aula 4",
+    "fecha": "2023-05-03",
+    "hora": "10:16",
+    "descripcion": "D4"
+  },
+  {
+    "tipo_rep": "R3",
+    "usr": "Mich",
+    "tipo_usr": "T3",
+    "ubicacion": "Aula 3",
+    "fecha": "2023-05-03",
+    "hora": "10:18",
+    "descripcion": "D3"
+  } ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R2",
+    "usr": "Elena",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R3",
+    "usr": "Arturo",
+    "tipo_usr": "T3",
+    "ubicacion": "Aula 3",
+    "fecha": "2023-05-03",
+    "hora": "10:15",
+    "descripcion": "D3"
+  } ,
+  {
+    "tipo_rep": "R1",
+    "usr": "Jacque",
+    "tipo_usr": "T4",
+    "ubicacion": "Aula 4",
+    "fecha": "2023-05-03",
+    "hora": "10:16",
+    "descripcion": "D4"
+  },
+  {
+    "tipo_rep": "R3",
+    "usr": "Mich",
+    "tipo_usr": "T3",
+    "ubicacion": "Aula 3",
+    "fecha": "2023-05-03",
+    "hora": "10:18",
+    "descripcion": "D3"
+  } ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  }
+  ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  }
+  ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  }
+  ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  }
+  ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  },
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  }
+  ,
+  {
+    "tipo_rep": "R2",
+    "usr": "Maribel",
+    "tipo_usr": "T2",
+    "ubicacion": "Aula 2",
+    "fecha": "2023-05-02",
+    "hora": "14:45",
+    "descripcion": "D2"
+  }
+]
